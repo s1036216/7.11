@@ -1,0 +1,5 @@
+package com.hanbit.member.service;
+
+public class MemberService {
+
+}

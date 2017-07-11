@@ -1,0 +1,59 @@
+package com.hanbit.serviceImpl;
+
+import com.hanbit.service.LottoService;
+import com.hanbiy.domain.LottoBean;
+
+public class LottoServiceImpl implements LottoService {
+	int [][] lottos;
+	int [] lotto; //돈과 상관없이 생성되는 한줄 (6)로또
+	private int count;
+	public  LottoServiceImpl(){
+		lottos =new int[count][6];
+		lotto =new int [6];
+	}
+	
+	
+	@Override
+	public void setCount(LottoBean bean) {
+		//// 몇줄로 출력 할것인지 로또 수계산 (최대 5줄)
+		bean.getMoney();
+		
+	}
+	@Override
+	public int getCount() {
+		//해당로또수만큼 출력
+		
+		
+		return count;
+	}
+	@Override
+	public void setLottos(LottoBean bean) {
+		for(int i=0;i<bean.getMoney()/1000;i++){
+			count+=i;
+		}
+		//로또 만들기
+		
+	}
+	@Override
+	public int[][] getLottos() {
+		// 만든로또 만들기
+		return null;
+	}
+
+	@Override
+	public boolean isDuplication(int count, int num) {
+		// 중복된 번호 체크 (중복이면 true 리턴)
+		return false;
+	}
+
+	@Override
+	public void sort(int[] arr) {
+		// 오름차순으로 정렬
+		
+	}
+
+	
+
+	
+
+}

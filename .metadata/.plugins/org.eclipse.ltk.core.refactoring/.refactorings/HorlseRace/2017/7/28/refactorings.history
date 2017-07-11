@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.hanbit.race&apos; to &apos;com.hanbit.service&apos;&#x0D;&#x0A;- Original project: &apos;HorlseRace&apos;&#x0D;&#x0A;- Original element: &apos;HorlseRace/src/com.hanbit.race&apos;&#x0D;&#x0A;- Renamed element: &apos;HorlseRace/src/com.hanbit.service&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.hanbit.race&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.hanbit.race" name="com.hanbit.service" qualified="false" references="true" stamp="1499739980174" textual="false" version="1.0"/>
+</session>

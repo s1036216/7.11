@@ -1,0 +1,33 @@
+package com.hanbit.board.serviceImpl;
+
+public class ATMServiceImpl implements Runnable{
+	
+	 ATM atm;
+	 String name="";	
+	
+	public ATMServiceImpl(ATM atm, String name) {
+	
+		this.atm = atm;
+		this.name = name;
+	}
+
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		atm.withdraw(name);
+		
+	}
+	public static class ATM{
+		public void withdraw(String name){
+			System.out.println(name+"님 인출 요청함");
+			for(int i=0;i<=100000000;i++){
+				if(i==10000){
+					System.out.println(name+"님 인출중입...");
+				}
+			}
+			System.out.println(name+"님 인출해 나감");
+}
+
+	}
+}

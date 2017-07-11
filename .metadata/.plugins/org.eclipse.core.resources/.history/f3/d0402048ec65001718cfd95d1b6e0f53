@@ -1,0 +1,12 @@
+package com.hanbit.board.controller;
+
+import com.hanbit.board.serviceImpl.ATMServiceImpl;
+
+public class ATMController {
+	public static void main(String[] args) {
+ 		
+		Runnable r=new ATMServiceImpl();
+		
+		r.run();
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MemberServiceImpl.java&apos; to &apos;Hanbit/src/impl&apos;&#x0D;&#x0A;- Original project: &apos;Hanbit&apos;&#x0D;&#x0A;- Destination element: &apos;Hanbit/src/impl&apos;&#x0D;&#x0A;- Original element: &apos;service.MemberServiceImpl.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;impl" element1="/src&lt;service{MemberServiceImpl.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1499644635659" units="1" version="1.0"/>
+</session>
