@@ -15,6 +15,8 @@ public class BoardServiceImpl implements BoardService {
 	}
 	@Override
 	public void writeBoard(BoardBean bean) {
+		int seq=list.size();
+		bean.setSeq(seq);
 		list.add(bean);
 		System.out.println("serviceImpl writeBoard:" + bean.toString());
 	}
@@ -32,7 +34,7 @@ public class BoardServiceImpl implements BoardService {
 	public BoardBean findBySeq(int seq) {
 		board = new BoardBean();
 		for (BoardBean x:list) {
-			if (seq == x.getSeq()) {
+			if (seq ==x.getSeq()) {
 				board = x;
 				break;
 			}

@@ -1,8 +1,10 @@
 package com.hanbiy.domain;
 
-public class LottoBean {
+import java.io.Serializable;
+
+public class LottoBean{
 	private int money;
-	private int number;
+	private int num;
 	public int getMoney() {
 		return money;
 	}
@@ -12,9 +14,9 @@ public class LottoBean {
 	}
 	public int getNumber() {
 		setNumber();
-		return number;
+		return num;
 	}
 	public void setNumber() {
-		this.number = (int)(Math.random()*45+1);
+		this.num = (int)(Math.random()*45+1);
 	}
 }

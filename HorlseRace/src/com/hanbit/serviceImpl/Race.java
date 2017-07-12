@@ -21,7 +21,7 @@ public class Race implements Runnable {
 				}
 			}
 		try{
-			Thread.sleep(ran.nextInt(300));
+			Thread.sleep(ran.nextInt(3000));
 		}catch (Exception e){
 			e.printStackTrace();
 		}
